@@ -1,0 +1,512 @@
+body {
+    
+    color: rgb(255, 255, 255);
+   
+}
+header{
+    background-image: url(hb.jpeg);
+    width: 100%;
+    height: 10vb;
+    position: fixed;
+}
+nav{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ height: 10vh;
+}
+.lift{
+    font-size: 4.5vh;
+    font-family: 'Colonna MT';
+}
+.lift span {
+    color:red;  
+}
+.lift span:hover {
+   color:aqua;
+}
+.right{
+    font-size: 2.8vh ;
+    margin-left: 25%;
+}
+nav ul{
+ display: flex;
+ justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+nav ul li a {
+    text-decoration:none;
+    color: aqua;
+    font-size: 3vh;
+    font-weight: bold;   
+}
+nav ul li a:hover{
+    color: firebrick;
+    font-size: 3.5vb;  
+}
+header hr{
+    margin-left: 10vh ;
+    margin-right:10vh ;
+}
+.frist{
+    background-color: rgb(14, 13, 11);
+    height: 96vh;
+    display: flex;
+}
+.fristlift{
+    font-size: 5.4vh;
+    margin: 18% 9%;   
+}
+.fristlift p{
+    font-family: 'Algerian'; 
+    font-size: 7.5vh;
+}
+.fristright img{
+    margin: 25% 10%;
+   height: 75vh;
+   width: 55vh;
+   cursor: not-allowed;
+   border-radius: 50%;
+    border-top: 1.5vh solid;
+   border-bottom: 1.5vh solid;
+   border-color:red ;
+}
+.fristright img:hover{
+    border-color: aqua;
+}
+
+.fristlift span{
+    color: aquamarine;
+}
+.fristlift span:hover{
+    color: rgb(241, 22, 22);
+}
+.icon{
+    margin-top: 10%;
+}
+.fa {
+  padding: 2px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: aqua;
+}
+.fa:hover {
+    color: red;
+}
+main hr{
+    margin-left: 10vh;
+    margin-right: 10vh; 
+}
+#secend{
+    height: 90vh;
+    display: flex ;
+    background-color: rgb(15, 14, 15);
+}
+.secendright p{
+    margin-top: 20vh;
+    margin-left: 27vh;
+    font-size: 1.8vb;
+    margin-bottom: -2vh;
+    font-family: 'Bahnschrift SemiLight SemiConde';
+    color: rgb(151, 151, 151);
+}
+.secendright a{
+    margin-left: 25vh;
+    font-size: 7vh;
+    font-family: 'Algerian';
+    color: whitesmoke;
+}
+
+.secendright span{
+    color: aqua; 
+}
+.secendright span:hover{
+    color: red;
+}
+.secendright h4{
+    margin-left: 25vh;
+    margin-top: 5vh;
+    height:25vh ;
+    margin-right: 25vh;
+    color: rgb(151, 151, 151);
+    
+}
+.secendright button{
+    margin-left: 15vh;
+    font-size: 3vh;
+    background-color: rgb(219, 41, 41);
+    border-radius: 15%;
+    width: 18vh;
+    height: 6vh;
+    font-size: 2.2vh;
+    font-family: Bahnschrift SemiBold;
+}
+.secendright  button:hover{
+    background-color: rgb(103, 211, 81);
+    font-size: 2.5vb;
+}
+.secendlift img{
+    margin-top: 10vh;
+    margin-left: 35vh;
+    height: 70vh;
+    border-radius: 50%;
+    border-right: 1.5vh solid;
+    border-left: 1.5vh solid ;
+    border-color: red;
+  }
+.secendlift img:hover{
+    border-color: rgb(0, 255, 255);
+}
+#three{
+    background-color: rgb(20, 19, 16);
+    height: 90vh;
+}
+
+#three p {
+    padding-top: 8vh;
+    padding-left: 42%;
+    font-size: 8vh; 
+    font-family: 'Algerian';
+}
+#three p span{
+    color: aqua;
+}
+#three p span:hover{
+    color: rgb(255, 0, 0);
+}
+.skills{
+    display: flex;
+    justify-content: space-between  ;
+    font-size: 4vh;
+    margin-top: 8vh;
+    
+}
+.codingskills{
+    margin-left: 15vh;
+ width:45% ;
+ 
+}
+.codingskills h2 span{
+    color: red;
+}
+.codingskills h2 span:hover{
+    color:aqua;
+}
+.codingskillsitems{
+    border-left: 0.5vh solid;
+    border-right:0.5vh solid;
+    border-radius: 10%;
+    width: 70vh;
+    margin-top: 4vh;
+    font-size: 3vh;
+    color: rgb(103, 211, 81);
+}
+.codingskillsitems:hover{
+    border-color: red;
+    background-color: rgb(5, 27, 25);
+}
+.pro{
+    margin-left: 4vh;
+    margin-right: 4vh;
+    margin-bottom: 3vh;
+}
+
+.pro .bar {
+   
+    border: 0.4vh solid rgb(0, 0, 0);
+    height: 2vh;
+}
+.pro .bar span{
+    background-color: aqua;
+    height: 2vh;
+    display: block;
+}
+.pro .bar span:hover{
+    background-color: rgb(255, 0, 0);
+}
+.pro h3 {
+    display: flex;
+    justify-content: space-between;
+}
+.codingskills .pro:nth-child(1) .bar span{
+    width: 85%; 
+}
+.codingskills .pro:nth-child(2) .bar span{
+    width: 80%;
+}
+.codingskills .pro:nth-child(3) .bar span{
+    width: 65%;
+}
+.codingskills .pro:nth-child(4) .bar span{
+    width: 70%;
+}
+.codingskills .pro:nth-child(5) .bar span{
+    width: 70%; 
+}
+.codingskills .pro:nth-child(5) {
+    padding-bottom: 2vh;
+}
+.parsanalskills{
+    margin-left: 15%;
+    margin-right: 10vh;
+    width:45%;
+}
+.parsanalskills h2 span{
+    color: red;
+}
+.parsanalskills h2 span:hover{
+    color: aqua;
+}
+.parsanalskillsitems{
+    border-left: 0.5vh solid;
+    border-right:0.5vh solid ;
+    border-radius: 10%;
+    width: 70vh;
+    margin-top: 4vh;
+    font-size: 3vh;
+    color: rgb(103, 211, 81);
+}
+.parsanalskillsitems:hover{
+    border-color: red;
+    background-color: rgb(5, 27, 25);
+}
+
+.parsanalskills .pro:nth-child(1) .bar span{
+    width: 70%;
+}
+.parsanalskills .pro:nth-child(2) .bar span{
+    width: 80%;
+}
+.parsanalskills .pro:nth-child(3) .bar span{
+    width: 90%;
+}
+.parsanalskills .pro:nth-child(4) .bar span{
+    width: 90%;
+}
+.parsanalskills .pro:nth-child(5) .bar span{
+    width: 85%;
+}
+.parsanalskills .pro:nth-child(5){
+    padding-bottom: 2vh;
+}
+#four{
+    height: 90vh;
+    background-color: rgb(15, 14, 15);
+}
+#four p{
+    padding-top: 6vh;
+    padding-left: 39%;
+    font-size: 7vh; 
+    font-family: 'Algerian';
+}
+#four p span{
+    color: aqua; 
+}
+#four p span:hover{
+    color: red; 
+}
+.education{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8vh;
+    margin-top: 8vh;
+    margin-right: 8vh;   
+}
+.education h2{
+ font-size: 5.5vh;
+ color: rgb(103, 211, 81);
+}
+.school{
+    width: 55vh;
+    border-right: 1vh solid rgb(103, 211, 81);
+    border-left: 1vh solid rgb(103, 211, 81);
+    border-radius: 10%;
+    padding: 4vh;
+   
+}
+.school:hover{
+    border-color: red;
+    background-color: rgb(5, 27, 25);
+    padding: 4.5vh ;
+}
+.school h4{
+    font-size: 3vh;
+}
+.s1 {
+    margin-top: 8vh;
+    font-size: 2.5vh;
+}
+.s1 .pro {
+    margin-left: 1vh;
+    margin-right: 4vh;
+    margin-top: 2vh;
+}
+.s1 .pro .bar span{
+    width: 80.8%;
+}
+.s2{
+    margin-top: 6vh;
+}
+.s2 .pro {
+    margin-left: 1vh;
+    margin-right: 4vh;
+    margin-top: 2vh;
+}
+.s2 .pro .bar span{
+    width: 81.4%;
+}
+.language{
+    border-right: 1vh solid rgb(103, 211, 81);
+    border-left: 1vh solid rgb(103, 211, 81);
+    margin-bottom: 25vh;
+    border-radius: 10%;
+    padding: 4vh;
+}
+.language:hover{
+    border-color: red;
+    background-color: rgb(5, 27, 25);
+    padding: 4.5vh ;
+    
+}
+.language h4{
+    margin-top: 8vh;
+    font-size: 3vh;
+}
+.collage{  
+    width: 55vh;
+    border-right: 1vh solid rgb(103, 211, 81);
+    border-left: 1vh solid rgb(103, 211, 81);
+    border-radius: 10%;
+    padding: 4vh;
+}
+.collage:hover{
+    border-color: red;
+    background-color: rgb(5, 27, 25);
+    padding: 4.5vh ;
+}
+.collage h4 {
+    margin-top: 8vh;
+    font-size: 3vh;
+}
+.c h3{
+    margin-top: 2vh;
+    font-size: 3vh;
+}
+.s{
+    display: flex;
+    justify-content: space-around;
+}
+.c1 .c2  span{
+    display: block;
+    background-color: aqua;
+}
+.c1 .c2  span:hover{
+    background-color: red;
+}
+.c1 .c2 {
+    border: 0.4vh solid rgb(0, 0, 0);
+    width: 2vh;
+    height: 15vh;
+    height: 100;
+}
+.s .c1:nth-child(1) .c2 span{
+    height: 55%;
+}
+.s .c1:nth-child(2) .c2 span{
+    height: 68%;
+}
+.s .c1:nth-child(3) .c2 span{
+    height: 62%;
+}
+.s .c1:nth-child(4) .c2 span{
+    height: 72%;
+}
+#five{
+    background-color: rgb(20, 19, 16);
+    height: 80vh;
+}
+#five p{
+    padding-top: 6vh;
+    padding-left: 39%;
+    font-size: 7vh; 
+    font-family: 'Algerian';
+}
+#five p span{
+    color: aqua;
+}
+#five p span:hover{
+    color:red;
+}
+input{
+    font-size: 3vh;
+    height: 4vh;
+    width: 50vh;
+}
+.form{
+    margin-top: 5vh;
+    margin-left: 8vh;
+    margin-right: 8vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: 4vh;
+}
+.form .f1 input:hover{
+    background-color: rgb(103, 211, 81);
+}
+.form2{
+    margin-top: 5vh;
+    font-size: 4vh;
+}
+.form .f2 input:hover{
+    background-color:  rgb(103, 211, 81);
+}
+.f label{
+    margin-left: 46%;
+    
+}
+.f input{
+    margin-left: 52vh; 
+    height: 20vh;
+    width: 100vh;
+}
+.f input:hover{
+    background-color: rgb(103, 211, 81);
+}
+.fb{
+    margin-left: 35%;
+}
+.fb input{
+    width: 20vh;
+    height: 5vh;
+    margin: 5vh;
+}
+.fb input{
+    background-color: firebrick
+}
+.fb input:hover{
+    height:6vh ;
+    width: 22vh;
+    background-color:  rgb(103, 211, 81);
+}
+footer{
+    height: 10vh;
+    background-image: url(hb.jpeg);
+}
+footer p{
+    font-size: 4.5vh;
+    margin-left: 29%;
+    color: aqua;
+}
+footer p:hover{
+    color: red;
+}
+footer hr{
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
